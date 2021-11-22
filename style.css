@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: #0094e9;
+    background-image: linear-gradient(160deg, #ccdfdf 0%, #80D0C7 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0px;
+    padding: 30px 0px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color:#ee8b8b;
+    margin-bottom: 30px;
+}
+
+.projectLink {
+    padding: 10px 60px;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: #8a4ea1;
+    text-decoration: none;
+    color: white;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 50px 50px 50px 50px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 50px 50px 50px 50px rgba(0,0,0,0);
+}
+
+.projectLink:hover {
+    background-color: #678b76;
+}
